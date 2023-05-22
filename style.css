@@ -1,0 +1,54 @@
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    vertical-align:middle;
+    background-color: #101010;
+    font-size: 20px;
+    align-items: center;
+}
+
+.logo-container{
+    display: table;
+    color: white;
+    padding: 0px 40px ;
+    vertical-align:middle;
+
+}
+
+
+
+.content {
+    float: left;
+    height: 100%;
+    padding: 0px 40px 
+}
+
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 40px;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+.leftfoto{
+float:left;
+margin: 4px 10px 2px 0px;
+}
